@@ -36,25 +36,33 @@ A combined outlier flag is used to summarize results.
 
 ## Repository Structure
 
-```text
-medicare-fraud-analysis-2023/
-├── scripts/          # Python scripts for data processing and outlier detection
-├── data/
-│   ├── processed/    # Aggregated datasets used for analysis and visualization
-│   └── sample/       # Placeholder for sample data (raw CMS data not included)
-├── dashboard/        # Power BI dashboard file
-├── docs/             # Documentation and dashboard screenshots
-└── README.md
+**scripts/**  
+Python scripts for data processing, aggregation, and outlier detection (IQR and Z-score).
+
+**data/**  
+Processed datasets used for analysis and visualization.  
+- `processed/` – Aggregated provider- and state-level datasets  
+- `sample/` – Placeholder structure only (raw CMS data not included)
+
+
+**dashboard/**  
+Power BI dashboard file (`.pbix`) used for interactive analysis and visualization.
+
+**docs/**  
+Project documentation and dashboard screenshots.
+
+**README.md**  
+Project overview, methodology, and usage instructions.
 
 ---
 
 ## How to Run
-1. Clone this repository
-2. Download the 2023 Medicare Physician & Other Supplier PUF from the CMS website (linked in Data Source)
+1. Clone this repository.
+2. Download the 2023 Medicare Physician & Other Supplier PUF from the CMS website (linked in Data Source).
 3. Run the Python scripts in the `scripts/` directory to generate processed datasets.
 4. Open the Power BI dashboard file in the `dashboard/` folder and connect it to the processed data outputs.
 
-Raw CMS data is not included in this repository due to licensing restrictions.
+Raw CMS data is **not included** in this repository due to licensing and file size constraints.
 
 ---
 
