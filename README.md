@@ -35,6 +35,8 @@ A combined outlier flag is used to summarize results.
 ---
 
 ## Repository Structure
+
+```text
 medicare-fraud-analysis-2023/
 ├── scripts/          # Python scripts for data processing and outlier detection
 ├── data/
