@@ -1,0 +1,8 @@
+# Ignore raw & large data by default
+*.csv
+*.xlsx
+*.pbix
+
+# Allow processed outputs and dashboard
+!data/processed/*.xlsx
+!dashboard/*.pbix
