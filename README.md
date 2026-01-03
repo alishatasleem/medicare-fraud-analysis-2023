@@ -42,7 +42,6 @@ Python scripts for data processing, aggregation, and outlier detection (IQR and 
 **data/**  
 Processed datasets used for analysis and visualization.  
 - `processed/` – Aggregated provider- and state-level datasets  
-- `sample/` – Placeholder structure only (raw CMS data not included)
 
 
 **dashboard/**  

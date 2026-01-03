@@ -4,5 +4,6 @@
 *.pbix
 
 # Allow processed outputs and dashboard
+!data/processed/*.csv
 !data/processed/*.xlsx
 !dashboard/*.pbix
