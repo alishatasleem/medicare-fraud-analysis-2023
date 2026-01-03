@@ -11,7 +11,7 @@ The goal is to identify **unusual billing behavior** among pathology providers t
 - **Dataset:** Medicare Physician & Other Supplier Public Use File (PUF)
 - **Year:** 2023
 - **Publisher:** Centers for Medicare & Medicaid Services (CMS)
-- **Source:** https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-geography-and-service/data
+- **Source:** https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-provider-and-service/data
 
 The dataset was filtered to include only providers classified under **Pathology**.
 
@@ -77,8 +77,8 @@ The Power BI dashboard provides:
 ---
 
 ## Tools & Technologies
-- **Python** (pandas, scipy) for data processing and statistical analysis
-- **Power BI** for interactive visualization
+- **Python (pandas, scipy)** for data filtering, aggregation, statistical analysis, and preliminary visualization
+- **Power BI** for interactive dashboarding and presentation
 - **Excel** for intermediate processed datasets
 
 ---
